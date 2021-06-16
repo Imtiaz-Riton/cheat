@@ -1,0 +1,7 @@
+					Database resoter command
+
+	pg_restore --dbname=wasa_gis --host=localhost -U postgres --verbose wasa_gis2503.tar
+
+					Alter User
+	
+	ALTER USER user_name WITH PASSWORD 'new_password';

@@ -5,3 +5,6 @@
 					Alter User
 	
 	ALTER USER user_name WITH PASSWORD 'new_password';
+	
+	url(r'',include('appname.urls'))
+	rul(r'^(?<pk>[0-9]+)/go/$', view.funcname)
